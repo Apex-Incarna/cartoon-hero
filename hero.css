@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+}
+h2{
+    font-family: 'Staatliches', cursive;
+    font-style: italic;
+}
+header{
+    background: rgb(209,141,1);
+background: linear-gradient(325deg, rgba(209,141,1,1) 11%, rgba(164,111,1,1) 32%, rgba(131,89,1,1) 59%, rgba(91,62,0,1) 78%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+header h1{
+    color: black;
+    font-size: 50px;
+}
+header img{
+    border-radius: 700px;
+    width: 300px;
+    border: 20px double #F4D03F; 
+}
+main{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 50px;
+}
+main p{
+    text-align: justify;
+}
+main img{
+    max-width: 100%;
+    min-width: 100%;
+    border
+}
+.center{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 50px 300px;
+    color: aliceblue;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,46,146,1) 60%, rgba(69,111,237,1) 100%);
+}
+footer p{
+    margin: 0;
+}
+a{
+    color: aqua;
+}
+footer:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,46,146,1) 60%, rgba(69,111,237,1) 100%);
+}
