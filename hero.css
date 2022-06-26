@@ -76,19 +76,18 @@ video{
     
     
     background-size: auto; 
-
-    @media only screen and (max-device-width: 1366px) {
-
-
-        .paralax {
-        
-        
-        background-attachment: scroll;
-        
-        
-        }
-        
-        
-        }
 }
+@media only screen and (max-device-width: 1366px) {
+
+
+    .paralax {
+    
+    
+    background-attachment: scroll;
+    
+    
+    }
+    
+    
+    }
 
