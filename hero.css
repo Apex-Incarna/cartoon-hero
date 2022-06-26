@@ -76,5 +76,9 @@ video{
     
     
     background-size: auto; 
+
+    @media screen {
+        background-size: 100%;
+    }
 }
 
