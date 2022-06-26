@@ -34,7 +34,6 @@ main p{
 main img{
     max-width: 100%;
     min-width: 100%;
-    border
 }
 .center{
     text-align: center;
@@ -49,10 +48,43 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7
 footer p{
     margin: 0;
 }
-a{
+footer a{
     color: aqua;
 }
 footer:hover{
     background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,46,146,1) 60%, rgba(69,111,237,1) 100%);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #090979 35%, rgba(7,46,146,1) 60%, rgba(69,111,237,1) 100%);
 }
+video{
+   max-width: 100%;
+   min-width: 100%; 
+}
+.paralax { 
+    background-image: url("../cartoon-hero/img/1655843316022.jpeg");
+
+    height: 400px;    
+    
+    background-attachment: fixed;
+    
+    
+    background-position: center;
+    
+    
+    background-repeat: no-repeat;
+    
+    
+    background-size: cover; 
+}
+    @media only screen and (max-device-width: 1366px) {
+
+
+        .example {
+        
+        
+        background-attachment: scroll;
+        
+        
+        }
+        
+        
+        }
