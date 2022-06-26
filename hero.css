@@ -77,7 +77,7 @@ video{
     
     background-size: auto; 
 }
-@media only screen and (max-device-width: 5366px) {
+@media only screen and (max-device-width: 366px) {
 
 
     .paralax {
