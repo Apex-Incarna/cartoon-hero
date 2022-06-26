@@ -72,28 +72,6 @@ video{
     
     background-size: 100%;
 
-    background-attachment: scroll;
+    background-attachment: fixed;
+
 }
-@media only screen and (min-device-width: 366px) {
-
-
-    .paralax {
-    
-    
-        background-image: url("../cartoon-hero/img/1655843316022.jpeg");
-
-        height: 500px;    
-        
-        background-attachment: fixed;
-        
-        background-position: center;
-        
-        background-repeat: no-repeat;
-        
-        background-size: cover; 
-    
-    }
-    
-    
-    }
-
